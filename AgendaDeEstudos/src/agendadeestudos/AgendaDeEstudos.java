@@ -17,8 +17,10 @@ public class AgendaDeEstudos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Primeiro teste com github!\n");
+        int tentativaretorno;
+        tentativaretorno = JOptionPane.showConfirmDialog(null, "A tentativa de upar o arquivo pro github deu certo?\n");
         JOptionPane.showMessageDialog(null, "Outra tentativa de upar o arquivo pro github");
+        
     }
     
 }
